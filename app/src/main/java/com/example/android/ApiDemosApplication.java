@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.apis;
+package com.example.android;
 
 import android.app.Application;
 
@@ -30,4 +30,13 @@ import android.app.Application;
  * of how to perform unit tests on an Application object.
  */
 public class ApiDemosApplication extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        CrashHandler crashHandler = CrashHandler.getInstance();
+        crashHandler.init(this);
+
+    }
 }

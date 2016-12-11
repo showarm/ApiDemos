@@ -1576,4 +1576,133 @@
     <string name="process_text_no_text_process_intent_received">Try selecting some text in another app and find this app\'s name in the list of options for its selection menu.</string>
     <string name="process_text_send_title">Select text to process</string>
     <string name="process_text_send_description">Select a piece of text from this box to trigger the text selection action mode. In there, you will find \"ApiDemos\". That is because this app declares it can handle text processing intents. Try selecting that action to send the selected text to that activity and retrieve processed text back.</string>
+
+
+
+    <!-- ============================ -->
+    <!--       Support v4 demo strings       -->
+    <!-- ============================ -->
+
+
+    <!-- Fragment API -->
+
+    <string name="fragment_alert_dialog_support">Fragment/Alert Dialog</string>
+
+    <string name="fragment_arguments_support">Fragment/Arguments</string>
+
+    <string name="fragment_custom_animation_support">Fragment/Custom Animation</string>
+
+    <string name="fragment_hide_show_support">Fragment/Hide and Show</string>
+
+    <string name="fragment_context_menu_support">Fragment/Context Menu</string>
+    <string name="hide">Hide</string>
+
+    <string name="fragment_dialog_or_activity_support">Fragment/Dialog or Activity</string>
+
+    <string name="fragment_layout_support">Fragment/Layout</string>
+
+    <string name="fragment_list_array_support">Fragment/List Array</string>
+
+    <string name="fragment_menu_support">Fragment/Menu</string>
+
+    <string name="fragment_nesting_tabs_support">Fragment/Nesting Tabs</string>
+
+    <string name="fragment_retain_instance_support">Fragment/Retain Instance</string>
+
+    <string name="fragment_receive_result_support">Fragment/Receive Result</string>
+
+    <string name="fragment_stack_support">Fragment/Stack</string>
+    <string name="home">Go home</string>
+
+    <string name="fragment_tabs_pager">Fragment/Tabs and Pager</string>
+
+    <string name="fragment_pager_support">Fragment/Pager</string>
+
+    <string name="fragment_state_pager_support">Fragment/State Pager</string>
+
+    <string name="loader_retained_support">Loader/Retained</string>
+
+    <string name="loader_custom_support">Loader/Custom</string>
+
+    <string name="loader_throttle_support">Loader/Throttle</string>
+
+    <string name="local_service_broadcaster">Content/Local Service Broadcaster</string>
+
+    <string name="local_service_broadcaster_msg">Demonstrates use of LocalBroadcastManager
+        to communicate from a Service to an Activity.</string>
+
+    <string name="simple_wakeful_controller">Content/Simple WakefulReceiver</string>
+
+    <string name="simple_wakeful_controller_msg">Demonstrates use of WakefulBroadcastReceiver
+        to keep the device awake while dispatching a broadcast to a service.</string>
+    <string name="schedule_wakeful_alarm">Wakeup in 30 seconds</string>
+    <string name="simple_wakeful_scheduled">Alarm scheduled</string>
+
+    <!-- Accessibility API -->
+
+    <string name="accessibility_manager_title">Accessibility/Accessibility Manager</string>
+    <string name="accessibility_manager_instructions">
+        1. Enable TalkBack from Settings->Accessibility.
+        \n2. Go back to this activity.
+        \n3. Disable TalkBack from Settings->Accessibility.</string>
+    <string name="accessibility_manager_no_enabled_services">No enabled accessibility services or API level lower than ICS.</string>
+    <string name="accessibility_manager_enabled_service">ENABLED ACCESSIBILITY SERVICES:
+        \n\nService: %1$s\nFeedback: %2$s\nDescription: %3$s\nSettings: %4$s\n</string>
+    <string name="accessibility_manager_accessibility_state">Accessibility enabled: %1$s</string>
+
+    <string name="accessibility_delegate_title">Accessibility/Accessibility Delegate</string>
+    <string name="accessibility_delegate_instructions">
+        1. Enable TalkBack from Settings->Accessibility.
+        \n2. Go back to this activity.
+        \n3. Touch the button below.</string>
+    <string name="accessibility_delegate_button">Button</string>
+    <string name="accessibility_delegate_custom_text_added">Custom text added via an accessibility delegate.</string>
+
+    <string name="share_text">Share some text</string>
+    <string name="share_file">Share a file</string>
+    <string name="share_multiple_file">Share multiple files</string>
+    <string name="sharing_support_title">App/ShareCompat Demo</string>
+    <string name="sharing_receiver_title">ShareCompat Receiver</string>
+
+    <string name="file_provider_example">Content/FileProvider example</string>
+
+    <!-- Text API -->
+
+    <string name="without_bidiformatter">Without BidiFormatter:</string>
+    <string name="with_bidiformatter">With BidiFormatter:</string>
+    <string name="bidiformatter_support_title">Text/BidiFormatter Demo</string>
+
+    <!-- TransportController -->
+
+    <string name="sample_transport_controller_activity">Media/TransportController</string>
+
+    <string name="view_pager_layout_support">View/View pager</string>
+
+    <string name="sliding_pane_layout_support">Widget/Sliding pane layout</string>
+
+    <string name="sliding_pane_layout_summary">This activity illustrates the use of sliding panes. The content pane may be slid to one side on narrow devices to reveal the left pane used to select content. Sliding panes can be used to fit a UI intended for wider screens in a smaller space. Tapping the Action Bar\'s Up button at the left side of the bar will navigate up in the hierarchy, represented by the left pane. If you rotate the device to landscape mode, on most devices you will see that both panes fit together side by side with no sliding necessary.</string>
+
+    <!-- ExploreByTouchHelper -->
+
+    <string name="explore_by_touch_helper_support">Widget/Explore by Touch helper</string>
+    <string name="sample_item_a">Sample item A</string>
+    <string name="sample_item_b">Sample item B</string>
+
+    <!-- ContentLoadingProgressBar -->
+    <string name="content_loading_progress_bar">Widget/Content Loading Progress Bar</string>
+
+    <!--  Swipe refresh -->
+    <string name="swipe">Widget/SwipeRefreshLayout</string>
+
+    <string name="nested_scroll">Widget/Nested Scrolling</string>
+
+    <string name="nested_scroll_long_text">This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it. This is some long text. It just keeps going. Look at it. Scroll it. Scroll the nested version of it.</string>
+    <string name="regular">regular</string>
+    <string name="round">round</string>
+
+    <string name="drawable_compat_no_tint">Not tint</string>
+    <string name="drawable_compat_color_tint">Color tint</string>
+    <string name="drawable_compat_color_list_tint">Color state list</string>
+
+
 </resources>

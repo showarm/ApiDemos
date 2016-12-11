@@ -36,6 +36,12 @@ import java.util.Map;
 public class ApiDemos extends ListActivity {
 
     @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         

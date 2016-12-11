@@ -35,4 +35,15 @@
          background color. -->
     <color name="custom_theme_color">#b0b0ff</color>
 
+
+
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+
+
+    <color name="reveal_color">#1b000000</color>
+
+
 </resources>

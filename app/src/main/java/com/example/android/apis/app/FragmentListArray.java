@@ -16,7 +16,7 @@
 
 package com.example.android.apis.app;
 
-import com.example.android.apis.Shakespeare;
+import com.example.android.Shakespeare;
 
 import android.app.Activity;
 import android.app.ListFragment;

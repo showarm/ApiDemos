@@ -1,0 +1,19 @@
+<com.ryg.chapter_3.ui.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onButtonClick"
+        android:text="滑动冲突场景1-外部拦截" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onButtonClick"
+        android:text="滑动冲突场景1-内部拦截" />
+
+</com.ryg.chapter_3.ui.RevealLayout>
