@@ -191,4 +191,11 @@
     </style>
 
 
+    <style name="InterstitialDialogLayout" />
+
+
+    <style name="ButtonBar" parent="@android:style/ButtonBar" />
+    <style name="ButtonBarButton" parent="@android:style/Widget.Button" />
+
+
 </resources>

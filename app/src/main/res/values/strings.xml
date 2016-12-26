@@ -1705,4 +1705,22 @@
     <string name="drawable_compat_color_list_tint">Color state list</string>
 
 
+    <string name="interstitial_description">This is an interstitial activity running in response to a notification. It presents a summary of info in a lightweight manner that does not exist as a task in Recents. Tap the button below to jump to the primary content.</string>
+
+    <string name="notifications_description">There are two classes of notifications: notifications that deep-link into an app directly, (e.g. an incoming SMS) and notifications that present an interstitial/summary of multiple collapsed notifications before linking into the app itself. (e.g. Calendar event notifications.) The buttons below will create notifications of each type.</string>
+
+    <string name="post_interstitial_notification">post_interstitial_notification</string>
+    <string name="post_direct_notification">Post direct notification</string>
+    <string name="launch_content_view">Launch content view activity</string>
+
+    <string name="outside_task_description">This activity has been launched in a new task. You can confirm this by pressing the Recents button now and switching back to the app navigation example task. This activity will view content with the fake mimetype \"application/x-example\" which will be received by another code example activity to continue the demo. Press the View button below.</string>
+
+    <string name="peer_description">This is an activity that shows content with many navigation peers. Think of a content browser that offers links to related content items. Pressing back from this activity will return to the previously viewed content item if you reached this point through a related link. If you reached it from the app nav example home activity, back will return there. Navigating up from this activity will always return to the app nav example home activity and clean up the back stack along the way.</string>
+    <string name="launch_peer">Link to another peer activity</string>
+    <string name="peer_count">Peer count: </string>
+
+    <string name="simple_up_description">This demo shows the simple case of up navigation that does not ever need to cross across different tasks. Press the up button on the action bar to return to the demo list. For simple drill-down navigation, the application up and system back buttons will navigate to the same location, leaving the task\'s back stack in the same state.</string>
+
+    <string name="view_from_other_task_description">This combined demo shows how to handle up navigation when another task has launched your app\'s activity on its own task stack. Navigating up in this scenario should synthesize a task stack representing the most common or direct navigation path to the parent activity. The code example shows how to handle this using helper code from the support library. Press the button below to launch a separate task and begin the demo.</string>
+    <string name="launch_other_task">Launch new task</string>
 </resources>
