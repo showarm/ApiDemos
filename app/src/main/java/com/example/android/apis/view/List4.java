@@ -16,7 +16,7 @@
 
 package com.example.android.apis.view;
 
-import com.example.android.Shakespeare;
+import com.example.Shakespeare;
 
 import android.app.ListActivity;
 import android.content.Context;

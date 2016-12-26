@@ -367,4 +367,24 @@
         <item>NAVIGATION_MODE_LIST</item>
     </string-array>
 
+    <string-array name="imgArray">
+        <item>@mipmap/img1</item>
+        <item>@mipmap/img2</item>
+        <item>@mipmap/img3</item>
+        <item>@mipmap/img4</item>
+        <item>@mipmap/img5</item>
+        <item>@mipmap/img6</item>
+    </string-array>
+
+
+    <string-array name="item">
+        <item>listView</item>
+        <item>gridView</item>
+        <item>staggeredGridView</item>
+        <item>animationListView</item>
+        <item>animationGridView</item>
+        <item>animationStaggerdGridView</item>
+        <item>headBottomView</item>
+
+    </string-array>
 </resources>

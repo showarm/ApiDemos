@@ -46,4 +46,14 @@
     <color name="reveal_color">#1b000000</color>
 
 
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button">#FF4081</color>
+    <color name="buttonPressed">#e72061</color>
+
+
+    <color name="number_view_normal_text_color">#3F51B5</color>
+    <color name="number_view_select_text_color">#FF4081</color>
+
 </resources>

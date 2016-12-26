@@ -27,7 +27,7 @@ import java.util.List;
  * from 主席
  */
 public class LoaderRygActivity extends Activity implements OnScrollListener {
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "BrokenViewActivity";
 
     private List<String> mUrList = new ArrayList<String>();
     ImageLoader mImageLoader;

@@ -1,5 +1,23 @@
 package com.example.android.imageloader.ryg;
 
+import android.annotation.TargetApi;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Build;
+import android.os.Build.VERSION_CODES;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import android.os.StatFs;
+import android.support.v4.util.LruCache;
+import android.util.Log;
+import android.widget.ImageView;
+
+import com.example.android.apis.R;
+import com.example.android.util.CloseUtils;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -17,24 +35,6 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import com.ryg.chapter_12.R;
-import com.ryg.chapter_12.utils.MyUtils;
-
-import android.annotation.TargetApi;
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.Build;
-import android.os.Build.VERSION_CODES;
-import android.os.Environment;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-import android.os.StatFs;
-import android.support.v4.util.LruCache;
-import android.util.Log;
-import android.widget.ImageView;
 
 public class ImageLoader {
 
@@ -275,8 +275,8 @@ public class ImageLoader {
             if (urlConnection != null) {
                 urlConnection.disconnect();
             }
-            MyUtils.close(out);
-            MyUtils.close(in);
+            CloseUtils.closeIO(out);
+            CloseUtils.closeIO(in);
         }
         return false;
     }
@@ -298,7 +298,7 @@ public class ImageLoader {
             if (urlConnection != null) {
                 urlConnection.disconnect();
             }
-            MyUtils.close(in);
+            CloseUtils.closeIO(in);
         }
         return bitmap;
     }

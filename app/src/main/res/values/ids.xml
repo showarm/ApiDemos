@@ -16,4 +16,6 @@
 
 <resources>
   <item type="id" name="snack" />
+
+  <item name="imageloader_uri" type="id"/>
 </resources>

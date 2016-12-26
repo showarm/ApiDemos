@@ -12,12 +12,6 @@ import android.view.View;
 import android.view.WindowManager;
 
 /**
- * <pre>
- *     author: Blankj
- *     blog  : http://blankj.com
- *     time  : 2016/8/2
- *     desc  : 屏幕相关工具类
- * </pre>
  */
 public class ScreenUtils {
 
@@ -156,5 +150,16 @@ public class ScreenUtils {
         return (int) (dpValue * scale + 0.5f);
 
     }
+
+
+    public static int getStatusBarHeight(Context context) {
+        int result = 0;
+        int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            result = context.getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
+    }
+
 
 }

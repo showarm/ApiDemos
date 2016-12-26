@@ -1,14 +1,14 @@
-package com.example.android.supportv4.widget;
+package com.example.android.customview.layout;
 
 import android.content.Context;
 import android.support.v4.view.NestedScrollingParent;
 import android.util.AttributeSet;
-import android.view.View;
 import android.widget.LinearLayout;
 
 /**
+ * Created by chenshao on 16/12/15.
+ *
  * http://www.tuicool.com/articles/JnmIrqU
- * Thx HongYang
  *
  */
 public class StickyNavLayout extends LinearLayout implements NestedScrollingParent {
@@ -24,8 +24,4 @@ public class StickyNavLayout extends LinearLayout implements NestedScrollingPare
         super(context, attrs, defStyleAttr);
     }
 
-    @Override
-    public boolean onStartNestedScroll(View child, View target, int nestedScrollAxes) {
-        return true;
-    }
 }
