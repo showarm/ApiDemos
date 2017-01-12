@@ -16,8 +16,6 @@
 
 package com.example.android.apis.graphics;
 
-import com.example.android.apis.R;
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -26,6 +24,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
+
+import com.example.android.apis.R;
 
 public class AnimateDrawables extends GraphicsActivity {
 
@@ -48,7 +48,7 @@ public class AnimateDrawables extends GraphicsActivity {
 
             Animation an = new TranslateAnimation(0, 100, 0, 200);
             an.setDuration(2000);
-            an.setRepeatCount(-1);
+            an.setRepeatCount(-1);//INFINITE
             an.initialize(10, 10, 10, 10);
 
             mDrawable = new AnimateDrawable(dr, an);

@@ -1,4 +1,4 @@
-package app.dinus.com.loadingdrawable.render.circle.rotate;
+package com.example.android.graphics.loadingRenderer;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -12,8 +12,6 @@ import android.graphics.RectF;
 import android.support.annotation.NonNull;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.view.animation.Interpolator;
-
-import app.dinus.com.loadingdrawable.render.LoadingRenderer;
 
 public class MaterialLoadingRenderer extends LoadingRenderer {
     private static final Interpolator MATERIAL_INTERPOLATOR = new FastOutSlowInInterpolator();

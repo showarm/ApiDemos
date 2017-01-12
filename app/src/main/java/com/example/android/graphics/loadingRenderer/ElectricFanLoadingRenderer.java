@@ -1,4 +1,4 @@
-package app.dinus.com.loadingdrawable.render.scenery;
+package com.example.android.graphics.loadingRenderer;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -24,14 +24,14 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
+import com.example.android.apis.R;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import app.dinus.com.loadingdrawable.R;
-import app.dinus.com.loadingdrawable.render.LoadingRenderer;
 
 public class ElectricFanLoadingRenderer extends LoadingRenderer {
   private static final Interpolator LINEAR_INTERPOLATOR = new LinearInterpolator();
