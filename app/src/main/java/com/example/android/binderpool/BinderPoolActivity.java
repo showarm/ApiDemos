@@ -8,7 +8,14 @@ import android.util.Log;
 
 import com.example.android.apis.R;
 
-
+/**
+ *
+ * android.os.IInterface
+ * AIDL 主要是app间通信
+ * 这个栗子来自 开发艺术探索
+ *
+ * 另一个AIDL栗子 http://www.race604.com/communicate-with-remote-service-3/  双向通信就是把服务端当客户端来用
+ */
 public class BinderPoolActivity extends Activity {
     private static final String TAG = "BinderPoolActivity";
 
@@ -30,9 +37,11 @@ public class BinderPoolActivity extends Activity {
 
     private void doWork() {
         BinderPoolManager binderPoolManager = BinderPoolManager.getInsance(BinderPoolActivity.this);
+
+        //客户端调用
         IBinder securityBinder = binderPoolManager
                 .queryBinder(BinderPoolManager.BINDER_SECURITY_CENTER);
-        ;
+
         mSecurityCenter = (ISecurityCenter) SecurityCenterImpl
                 .asInterface(securityBinder);
         Log.d(TAG, "visit ISecurityCenter");

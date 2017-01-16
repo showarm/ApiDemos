@@ -73,6 +73,9 @@ public class BinderPoolManager {
         }
     };
 
+    /**
+     * 异常退出机制
+     */
     private IBinder.DeathRecipient mBinderPoolDeathRecipient = new IBinder.DeathRecipient() {
         @Override
         public void binderDied() {
